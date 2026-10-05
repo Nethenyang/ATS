@@ -2,9 +2,9 @@
 
 Research code and recorded measurements accompanying **Temporally Constrained Audio Configuration Selection with Alignment-Aware Fidelity Evaluation**.
 
-This repository implements an offline, reference-based decision: encode and decode a finite set of existing audio configurations, evaluate their reconstructions on the full reference time grid, and select the smallest actual file satisfying global and active-frame tail fidelity requirements. 
+This repository implements an offline, reference-based decision: encode and decode a finite set of existing audio configurationss, evaluate their reconstructions on the full reference time grid, and select the smallest actual file satisfying global and active-frame tail fidelity requirements. 
 
-[data sources](docs/DATA_SOURCES.md")
+[data sources](docs/DATA_SOURCES.md)
 
 ## What is included
 

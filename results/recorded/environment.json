@@ -1,0 +1,54 @@
+{
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.2.1",
+  "scipy": "1.18.1",
+  "soundfile": "0.14.0",
+  "pyav": "19.0.1",
+  "av_libraries": {
+    "libavutil": [
+      61,
+      1,
+      102
+    ],
+    "libavcodec": [
+      63,
+      1,
+      102
+    ],
+    "libavformat": [
+      63,
+      1,
+      102
+    ],
+    "libavdevice": [
+      63,
+      1,
+      102
+    ],
+    "libavfilter": [
+      12,
+      1,
+      102
+    ],
+    "libswscale": [
+      10,
+      1,
+      102
+    ],
+    "libswresample": [
+      7,
+      1,
+      102
+    ]
+  },
+  "primary": {
+    "global_db": 20,
+    "tail_db": 15,
+    "frame_ms": 20,
+    "activity_db": -40,
+    "tail_fraction": 0.1
+  },
+  "experiment_date": "2026-10-04",
+  "selection": "exact finite enumeration; no training"
+}

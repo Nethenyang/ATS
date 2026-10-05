@@ -1,0 +1,16 @@
+{
+  "protocol_version": "1.1",
+  "global_threshold_db": 20,
+  "tail_threshold_db": 15,
+  "frame_ms": 20,
+  "activity_relative_db": -40,
+  "tail_fraction": 0.1,
+  "maximum_alignment_ms": 200,
+  "epsilon": 1e-15,
+  "snr_display_distortion_floor": 1e-12,
+  "gain_fitting": false,
+  "reference_duration_cropping": false,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261004,
+  "note": "Documentation snapshot. Executable configuration enumeration is in run_experiments.py; this JSON is not an independently active runtime configuration."
+}

@@ -1,0 +1,15 @@
+{
+  "archives": [
+    {
+      "file": "dev-clean.tar.gz",
+      "bytes": 337926286,
+      "sha256": "76f87d090650617fca0cac8f88b9416e0ebf80350acb97b343a85fa903728ab3"
+    },
+    {
+      "file": "MUSDB18-7-STEMS.zip",
+      "bytes": 147209385,
+      "sha256": "365f66acffc57282e474a4c24b32afec3678258c50b8d45646ac849b0a287df3"
+    }
+  ],
+  "notes": "LibriSpeech CC BY4.0. MUSDB18 official academic sample release; mixture already AAC-compressed. No audio redistribution."
+}

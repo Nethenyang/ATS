@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "isolated end-to-end smoke on two existing public references; not a rerun of the full experiment",
+  "sources": 2,
+  "actual_candidate_files": 76,
+  "local_candidate_hashes_verified": 76,
+  "commands": [
+    {
+      "script": "run_experiments.py",
+      "exit_code": 0
+    },
+    {
+      "script": "make_report.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_results.py",
+      "exit_code": 0
+    }
+  ],
+  "temporary_audio_retained_in_upload_folder": false
+}

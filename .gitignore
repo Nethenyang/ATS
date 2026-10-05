@@ -1,0 +1,26 @@
+# Generated inputs, bitstreams, runs and local environments
+/data/
+/runs/
+/artifacts/reproduced/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Audio is reconstructed locally, never included in this upload bundle.
+*.wav
+*.flac
+*.mp3
+*.aac
+*.ogg
+*.mp4
+*.tar.gz
+*.zip
+# Local manuscript/build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out

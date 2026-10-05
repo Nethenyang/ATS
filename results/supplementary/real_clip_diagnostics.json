@@ -1,0 +1,48 @@
+[
+  {
+    "file": "part1.wav",
+    "sr": 48000,
+    "channels": 2,
+    "duration": 60.032,
+    "input_rms": 0.16208308146165107,
+    "output_rms": 0.15341781341566924,
+    "attenuation_db": -0.4772379210981551,
+    "narrowband_peak_hz": [
+      70.3125,
+      410.15625,
+      832.03125,
+      17291.015625,
+      17583.984375,
+      17701.171875
+    ],
+    "pre_limit_overrange_samples": 29,
+    "peak_safety_scale": 0.9902617889348275,
+    "clipped_output_samples": 0,
+    "true_snr": "unavailable: no supplied clean reference",
+    "interpretation": "peaks may be noise or wanted tonal content; attenuation does not prove improvement"
+  },
+  {
+    "file": "part2.wav",
+    "sr": 48000,
+    "channels": 2,
+    "duration": 60.117333333333335,
+    "input_rms": 0.1701518553584586,
+    "output_rms": 0.15821004242655715,
+    "attenuation_db": -0.6320528412498687,
+    "narrowband_peak_hz": [
+      685.546875,
+      11203.125,
+      10400.390625,
+      16001.953125,
+      12000.0,
+      12802.734375,
+      13599.609375,
+      17601.5625
+    ],
+    "pre_limit_overrange_samples": 719,
+    "peak_safety_scale": 0.9738441626884997,
+    "clipped_output_samples": 0,
+    "true_snr": "unavailable: no supplied clean reference",
+    "interpretation": "peaks may be noise or wanted tonal content; attenuation does not prove improvement"
+  }
+]

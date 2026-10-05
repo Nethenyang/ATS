@@ -1,0 +1,443 @@
+{
+  "source_count": 92,
+  "candidate_count": 3628,
+  "public": {
+    "public_speech": {
+      "MP3-128": {
+        "n": 40,
+        "mean_kib": 95.66796875,
+        "median_snr": 25.11312429198272,
+        "median_tail": 12.334664350335597,
+        "global_failures": 2,
+        "tail_failures": 28,
+        "both_passes": 12,
+        "mean_stoi": 0.9999844736386919,
+        "mean_lsd": 1.5179266007047143,
+        "mean_sc": 0.0664111625042047
+      },
+      "AAC-128": {
+        "n": 40,
+        "mean_kib": 53.587451171875,
+        "median_snr": 37.90734353238866,
+        "median_tail": 18.777751583292915,
+        "global_failures": 0,
+        "tail_failures": 5,
+        "both_passes": 35,
+        "mean_stoi": 0.9995734483906545,
+        "mean_lsd": 0.5463332954251218,
+        "mean_sc": 0.011237209441884258
+      },
+      "Opus-64": {
+        "n": 40,
+        "mean_kib": 47.6337890625,
+        "median_snr": 20.945203785375966,
+        "median_tail": 9.678202867467265,
+        "global_failures": 13,
+        "tail_failures": 40,
+        "both_passes": 0,
+        "mean_stoi": 0.9964283613043168,
+        "mean_lsd": 1.7898973921230106,
+        "mean_sc": 0.07289893952119475
+      },
+      "PCM-16": {
+        "n": 40,
+        "mean_kib": 187.54296875,
+        "median_snr": 120.0,
+        "median_tail": 120.0,
+        "global_failures": 0,
+        "tail_failures": 0,
+        "both_passes": 40,
+        "mean_stoi": 0.9999999999999997,
+        "mean_lsd": 1.2709017293507972e-06,
+        "mean_sc": 5.0851516302018745e-08
+      },
+      "Global-only": {
+        "n": 40,
+        "mean_kib": 36.46376953125,
+        "median_snr": 21.070299431912133,
+        "median_tail": 7.850837322116153,
+        "global_failures": 0,
+        "tail_failures": 36,
+        "both_passes": 4,
+        "mean_stoi": 0.9939997134977714,
+        "mean_lsd": 2.1337969161491737,
+        "mean_sc": 0.06408224151847383
+      },
+      "Tail-constrained": {
+        "n": 40,
+        "mean_kib": 62.7643310546875,
+        "median_snr": 34.089298183900404,
+        "median_tail": 18.121003403619767,
+        "global_failures": 0,
+        "tail_failures": 0,
+        "both_passes": 40,
+        "mean_stoi": 0.9994916272564296,
+        "mean_lsd": 0.6392514517477554,
+        "mean_sc": 0.021036546380666883
+      },
+      "savings_vs_MP3-128": {
+        "mean": 34.39357825323589,
+        "lo": 21.216303948389204,
+        "hi": 44.96248111551182
+      },
+      "savings_vs_AAC-128": {
+        "mean": -18.600668702831104,
+        "lo": -44.243265347312686,
+        "hi": 2.1831277234213418
+      },
+      "savings_vs_Opus-64": {
+        "mean": -31.76430489780019,
+        "lo": -58.22961641757385,
+        "hi": -10.537661192775285
+      },
+      "savings_vs_PCM-16": {
+        "mean": 66.53335954260481,
+        "lo": 59.811470288058985,
+        "hi": 71.92468653017018
+      },
+      "savings_vs_Global-only": {
+        "mean": -83.95090673078937,
+        "lo": -111.69396960706017,
+        "hi": -58.70118745395938
+      },
+      "choices": {
+        "aac_16000_128000": 8,
+        "aac_16000_64000": 21,
+        "mp3_16000_64000": 7,
+        "opus_48000_128000": 1,
+        "wav_16000_16": 3
+      },
+      "codec_counts": {
+        "aac": 29,
+        "mp3": 7,
+        "opus": 1,
+        "wav": 3
+      }
+    },
+    "public_music": {
+      "MP3-128": {
+        "n": 50,
+        "mean_kib": 107.388671875,
+        "median_snr": 25.030196930862715,
+        "median_tail": 22.306075647466244,
+        "global_failures": 0,
+        "tail_failures": 0,
+        "both_passes": 50,
+        "mean_stoi": null,
+        "mean_lsd": 0.9954431907361743,
+        "mean_sc": 0.05381959206312209
+      },
+      "AAC-128": {
+        "n": 50,
+        "mean_kib": 109.5869921875,
+        "median_snr": 28.229323936081887,
+        "median_tail": 19.98982278019643,
+        "global_failures": 0,
+        "tail_failures": 1,
+        "both_passes": 49,
+        "mean_stoi": null,
+        "mean_lsd": 1.1633458281725861,
+        "mean_sc": 0.02807024533551019
+      },
+      "Opus-64": {
+        "n": 50,
+        "mean_kib": 53.9228515625,
+        "median_snr": 18.763132407239073,
+        "median_tail": 13.964450178171756,
+        "global_failures": 41,
+        "tail_failures": 35,
+        "both_passes": 7,
+        "mean_stoi": null,
+        "mean_lsd": 2.3588633251496662,
+        "mean_sc": 0.08244883521511114
+      },
+      "PCM-16": {
+        "n": 50,
+        "mean_kib": 585.74609375,
+        "median_snr": 77.68421395567145,
+        "median_tail": 71.36398733515024,
+        "global_failures": 0,
+        "tail_failures": 0,
+        "both_passes": 50,
+        "mean_stoi": null,
+        "mean_lsd": 0.007193279844768913,
+        "mean_sc": 0.00015055842237348598
+      },
+      "Global-only": {
+        "n": 50,
+        "mean_kib": 63.45884765625,
+        "median_snr": 21.194197659543033,
+        "median_tail": 15.696499588562734,
+        "global_failures": 0,
+        "tail_failures": 22,
+        "both_passes": 28,
+        "mean_stoi": null,
+        "mean_lsd": 2.5847955669412976,
+        "mean_sc": 0.07292351822754939
+      },
+      "Tail-constrained": {
+        "n": 50,
+        "mean_kib": 74.3313671875,
+        "median_snr": 22.76781819624422,
+        "median_tail": 17.83003883405985,
+        "global_failures": 0,
+        "tail_failures": 0,
+        "both_passes": 50,
+        "mean_stoi": null,
+        "mean_lsd": 1.9085841166761832,
+        "mean_sc": 0.06446275623773523
+      },
+      "savings_vs_MP3-128": {
+        "mean": 30.782860156775733,
+        "lo": 26.98258552643544,
+        "hi": 34.77791772002255
+      },
+      "savings_vs_AAC-128": {
+        "mean": 32.177815283974795,
+        "lo": 28.500040870961644,
+        "hi": 36.06612570730186
+      },
+      "savings_vs_Opus-64": {
+        "mean": -37.847619392578366,
+        "lo": -45.41595885325172,
+        "hi": -29.891364978177005
+      },
+      "savings_vs_PCM-16": {
+        "mean": 87.30996792285478,
+        "lo": 86.61323865796157,
+        "hi": 88.04240801995316
+      },
+      "savings_vs_Global-only": {
+        "mean": -24.156936401599488,
+        "lo": -35.266112457019304,
+        "hi": -14.744752380058772
+      },
+      "choices": {
+        "aac_16000_64000": 1,
+        "aac_8000_128000": 1,
+        "mp3_16000_64000": 1,
+        "mp3_32000_64000": 3,
+        "mp3_32000_96000": 1,
+        "mp3_44100_128000": 2,
+        "mp3_44100_32000": 1,
+        "mp3_44100_64000": 4,
+        "mp3_44100_96000": 35,
+        "wav_8000_8": 1
+      },
+      "codec_counts": {
+        "aac": 2,
+        "mp3": 47,
+        "wav": 1
+      }
+    }
+  },
+  "supplied": {
+    "supplied_speech_Global-only": {
+      "bytes": 23443.0,
+      "snr_db": 21.168758484578717,
+      "tail_snr_db": 8.85616166192012
+    },
+    "supplied_speech_Tail-constrained": {
+      "bytes": 34115.0,
+      "snr_db": 29.99710518214727,
+      "tail_snr_db": 15.166885563524575
+    },
+    "supplied_music_Global-only": {
+      "bytes": 40364.0,
+      "snr_db": 22.67855303054969,
+      "tail_snr_db": 13.139487139272196
+    },
+    "supplied_music_Tail-constrained": {
+      "bytes": 80684.0,
+      "snr_db": 24.262114354735587,
+      "tail_snr_db": 15.416157496032357
+    }
+  },
+  "alignment": {
+    "aac_count": 1152,
+    "median_raw": -2.9533071830141333,
+    "median_aligned": 19.373488054293347,
+    "median_gain": 22.220983925737443,
+    "delay_min": 21.33333333333333,
+    "delay_max": 128.0045351473923
+  },
+  "robustness": {
+    "public_music/Global-only/10/-40": {
+      "n": 50,
+      "tail_failures": 23,
+      "median_tail": 15.297765046158675
+    },
+    "public_music/Global-only/20/-50": {
+      "n": 50,
+      "tail_failures": 22,
+      "median_tail": 15.696499588562734
+    },
+    "public_music/Global-only/20/-30": {
+      "n": 50,
+      "tail_failures": 21,
+      "median_tail": 15.81512321511039
+    },
+    "public_music/Global-only/40/-40": {
+      "n": 50,
+      "tail_failures": 17,
+      "median_tail": 15.986199539548746
+    },
+    "public_music/Tail-constrained/10/-40": {
+      "n": 50,
+      "tail_failures": 5,
+      "median_tail": 17.440987894441513
+    },
+    "public_music/Tail-constrained/20/-50": {
+      "n": 50,
+      "tail_failures": 0,
+      "median_tail": 17.83003883405985
+    },
+    "public_music/Tail-constrained/20/-30": {
+      "n": 50,
+      "tail_failures": 0,
+      "median_tail": 17.83003883405985
+    },
+    "public_music/Tail-constrained/40/-40": {
+      "n": 50,
+      "tail_failures": 0,
+      "median_tail": 18.222776607018154
+    },
+    "public_speech/Global-only/10/-40": {
+      "n": 40,
+      "tail_failures": 38,
+      "median_tail": 7.07334586307414
+    },
+    "public_speech/Global-only/20/-50": {
+      "n": 40,
+      "tail_failures": 37,
+      "median_tail": 7.027211464633184
+    },
+    "public_speech/Global-only/20/-30": {
+      "n": 40,
+      "tail_failures": 34,
+      "median_tail": 9.432627594853884
+    },
+    "public_speech/Global-only/40/-40": {
+      "n": 40,
+      "tail_failures": 34,
+      "median_tail": 9.123127792319188
+    },
+    "public_speech/Tail-constrained/10/-40": {
+      "n": 40,
+      "tail_failures": 4,
+      "median_tail": 17.334619920318197
+    },
+    "public_speech/Tail-constrained/20/-50": {
+      "n": 40,
+      "tail_failures": 7,
+      "median_tail": 16.661782673112366
+    },
+    "public_speech/Tail-constrained/20/-30": {
+      "n": 40,
+      "tail_failures": 0,
+      "median_tail": 19.997695650925632
+    },
+    "public_speech/Tail-constrained/40/-40": {
+      "n": 40,
+      "tail_failures": 0,
+      "median_tail": 19.947807370317683
+    },
+    "supplied_music/Global-only/10/-40": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 13.329061630655126
+    },
+    "supplied_music/Global-only/20/-50": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 13.139487139272196
+    },
+    "supplied_music/Global-only/20/-30": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 13.139487139272196
+    },
+    "supplied_music/Global-only/40/-40": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 13.83362848052854
+    },
+    "supplied_music/Tail-constrained/10/-40": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 15.34333975558007
+    },
+    "supplied_music/Tail-constrained/20/-50": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 15.416157496032357
+    },
+    "supplied_music/Tail-constrained/20/-30": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 15.416157496032357
+    },
+    "supplied_music/Tail-constrained/40/-40": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 16.13878753947357
+    },
+    "supplied_speech/Global-only/10/-40": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 8.531619566347514
+    },
+    "supplied_speech/Global-only/20/-50": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 9.07960747796363
+    },
+    "supplied_speech/Global-only/20/-30": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 8.85616166192012
+    },
+    "supplied_speech/Global-only/40/-40": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 8.966950074524906
+    },
+    "supplied_speech/Tail-constrained/10/-40": {
+      "n": 1,
+      "tail_failures": 1,
+      "median_tail": 13.854218983346756
+    },
+    "supplied_speech/Tail-constrained/20/-50": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 15.33165971628584
+    },
+    "supplied_speech/Tail-constrained/20/-30": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 15.464402836810995
+    },
+    "supplied_speech/Tail-constrained/40/-40": {
+      "n": 1,
+      "tail_failures": 0,
+      "median_tail": 16.549053233020214
+    }
+  },
+  "timing": {
+    "total_encoding_seconds": 210.81179219979094,
+    "total_decoding_seconds": 87.43278360180557,
+    "total_metrics_seconds": 126.49974869878497,
+    "per_source_search_seconds": {
+      "count": 92.0,
+      "mean": 4.616786135873712,
+      "std": 2.165253485982142,
+      "min": 2.036540500004776,
+      "25%": 2.41804879962001,
+      "50%": 4.414095099869883,
+      "75%": 6.627657974968315,
+      "max": 8.353749100409914
+    }
+  },
+  "fall_back_count": 0,
+  "all_configs_valid": true
+}

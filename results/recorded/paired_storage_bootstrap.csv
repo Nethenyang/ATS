@@ -1,0 +1,11 @@
+group,baseline,independent_units,statistic,mean_pct,bootstrap_lower_pct,bootstrap_upper_pct,resamples,seed
+public_speech,MP3-128,40,mean per-excerpt storage reduction (%),34.39357825323589,21.216303948389204,44.96248111551182,10000,20261004
+public_speech,AAC-128,40,mean per-excerpt storage reduction (%),-18.600668702831104,-44.243265347312686,2.1831277234213418,10000,20261004
+public_speech,Opus-64,40,mean per-excerpt storage reduction (%),-31.76430489780019,-58.22961641757385,-10.537661192775285,10000,20261004
+public_speech,PCM-16,40,mean per-excerpt storage reduction (%),66.53335954260481,59.811470288058985,71.92468653017018,10000,20261004
+public_speech,Global-only,40,mean per-excerpt storage reduction (%),-83.95090673078937,-111.69396960706017,-58.70118745395938,10000,20261004
+public_music,MP3-128,50,mean per-excerpt storage reduction (%),30.782860156775733,26.98258552643544,34.77791772002255,10000,20261004
+public_music,AAC-128,50,mean per-excerpt storage reduction (%),32.177815283974795,28.500040870961644,36.06612570730186,10000,20261004
+public_music,Opus-64,50,mean per-excerpt storage reduction (%),-37.847619392578366,-45.41595885325172,-29.891364978177005,10000,20261004
+public_music,PCM-16,50,mean per-excerpt storage reduction (%),87.30996792285478,86.61323865796157,88.04240801995316,10000,20261004
+public_music,Global-only,50,mean per-excerpt storage reduction (%),-24.156936401599488,-35.266112457019304,-14.744752380058772,10000,20261004

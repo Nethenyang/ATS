@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this research code and the associated manuscript, and separately attribute the original audio datasets."
+title: "Temporally Constrained Audio Configuration Selection with Alignment-Aware Fidelity Evaluation"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Haoran
+    affiliation: Shandong University of Technology
+  - family-names: Chen
+    given-names: Danyang
+    affiliation: Shandong University
+  - family-names: Bo
+    given-names: Xiaoyuan
+    affiliation: Shandong University of Technology
+  - family-names: Liu
+    given-names: Zhi
+    affiliation: Shandong University of Technology
+    email: zhiliu@sdut.edu.cn
+abstract: "Offline minimum-byte audio configuration selection under alignment-aware global and active-frame tail fidelity requirements. Haoran Yang and Danyang Chen contributed equally. The accompanying manuscript is a submission draft."
+keywords:
+  - audio configuration selection
+  - rate-distortion
+  - temporal fidelity
+  - codec alignment
+  - reproducible evaluation
